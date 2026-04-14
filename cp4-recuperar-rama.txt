@@ -1,0 +1,12 @@
+ed2bd17 HEAD@{0}: commit (merge): Resuelve conflicto al hacer merge de feature-a
+698877d HEAD@{1}: commit: Actualiza main antes de integrar A
+2fd7da8 HEAD@{2}: checkout: moving from feature-b to main
+a2fed0e HEAD@{3}: commit: Añade funcionalidad B
+2fd7da8 HEAD@{4}: checkout: moving from main to feature-b
+2fd7da8 HEAD@{5}: checkout: moving from feature-a to main
+3863e8e HEAD@{6}: commit: Añade funcionalidad A
+2fd7da8 HEAD@{7}: checkout: moving from main to feature-a
+2fd7da8 HEAD@{8}: commit: Commit inicial
+0628e76 HEAD@{9}: clone: from github.com:IES-Torrevigia-FP/actividad-6-10-git-log-git-reflog-leer-historial-commits-1234567890123ant-glitch.git
+
+Se usa reflog porque permite recuperar commits aunque la rama haya sido borrada.

@@ -1,0 +1,14 @@
+* 698877d (HEAD -> main) Actualiza main antes de integrar A
+| * a2fed0e (feature-b) Añade funcionalidad B
+|/  
+| * 3863e8e (feature-a) Añade funcionalidad A
+|/  
+* 2fd7da8 Commit inicial
+* 0628e76 (origin/main, origin/HEAD) add deadline
+* c196b2a Initial commit
+log --oneline --graph --decorate --all
+La vista que más útil me parece es --oneline --graph --decorate --all porque
+ es más clara y fácil de leer.
+
+En resume los commits en una línea y permite ver las ramas, por lo que entiendo
+ mejor el historial que con git log normal.

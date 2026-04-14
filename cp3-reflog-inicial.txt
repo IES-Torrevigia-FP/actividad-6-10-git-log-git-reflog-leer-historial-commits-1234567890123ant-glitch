@@ -1,0 +1,11 @@
+698877d HEAD@{0}: commit: Actualiza main antes de integrar A
+2fd7da8 HEAD@{1}: checkout: moving from feature-b to main
+a2fed0e HEAD@{2}: commit: Añade funcionalidad B
+2fd7da8 HEAD@{3}: checkout: moving from main to feature-b
+2fd7da8 HEAD@{4}: checkout: moving from feature-a to main
+3863e8e HEAD@{5}: commit: Añade funcionalidad A
+2fd7da8 HEAD@{6}: checkout: moving from main to feature-a
+2fd7da8 HEAD@{7}: commit: Commit inicial
+0628e76 HEAD@{8}: clone: from github.com:IES-Torrevigia-FP/actividad-6-10-git-log-git-reflog-leer-historial-commits-1234567890123ant-glitch.git
+git log muestra el historial de commits visibles en ramas.
+git reflog muestra todos los movimientos de HEAD, incluso commits no visibles.

@@ -1,0 +1,18 @@
+ed2bd17 HEAD@{0}: reset: moving to ed2bd17
+ed2bd17 HEAD@{1}: reset: moving to ed2bd17
+698877d HEAD@{2}: reset: moving to 698877d
+ed2bd17 HEAD@{3}: commit (merge): Resuelve conflicto al hacer merge de feature-a
+698877d HEAD@{4}: commit: Actualiza main antes de integrar A
+2fd7da8 HEAD@{5}: checkout: moving from feature-b to main
+a2fed0e HEAD@{6}: commit: Añade funcionalidad B
+2fd7da8 HEAD@{7}: checkout: moving from main to feature-b
+2fd7da8 HEAD@{8}: checkout: moving from feature-a to main
+3863e8e HEAD@{9}: commit: Añade funcionalidad A
+2fd7da8 HEAD@{10}: checkout: moving from main to feature-a
+2fd7da8 HEAD@{11}: commit: Commit inicial
+0628e76 HEAD@{12}: clone: from github.com:IES-Torrevigia-FP/actividad-6-10-git-log-git-reflog-leer-historial-commits-1234567890123ant-glitch.git
+Hice un git reset --hard para volver a un commit anterior y perdí algunos cambios del historial.
+
+Luego usé git reflog para encontrar el commit anterior y recuperarlo.
+
+Finalmente volví a ese estado con git reset --hard usando el hash del reflog.
